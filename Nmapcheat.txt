@@ -8,3 +8,6 @@ Nmap with not ping the server when it runs
 
 -so(IP protocol scan)
 Allow you to see which IP protocols are supported by target devices
+
+Nmap -v -sS -A target(IP Address)
+Nmap runs a stealth scan, prints OS and service version information, also does a traceroute and scripts against services. 
